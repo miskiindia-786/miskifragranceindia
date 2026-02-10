@@ -5,90 +5,94 @@
   <title>72 Hour Car Perfume</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<style>
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  text-align: center;
-  color: #222;
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      color: #222;
 
-  background:
-    linear-gradient(rgba(255,255,255,0.85), rgba(255,255,255,0.85)),
-    url('bg-poster.jpg');
+      background:
+        linear-gradient(rgba(255,255,255,0.85), rgba(255,255,255,0.85)),
+        url('bg-poster.jpg');
 
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
 
-.container {
-  max-width: 420px;
-  margin: 40px auto;
-  padding: 30px 18px;
-  background: rgba(255,255,255,0.92);
-  border-radius: 18px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
-}
+    .container {
+      max-width: 420px;
+      margin: 40px auto;
+      padding: 30px 18px;
+      background: rgba(255,255,255,0.95);
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    }
 
-.logo img {
-  max-width: 180px;
-  width: 100%;
-  height: auto;
-  margin-bottom: 20px;
-}
+    .logo img {
+      max-width: 180px;
+      width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    }
 
-.whatsapp-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 12px;
-  background: #25D366;
-  color: #fff;
-  padding: 18px;
-  font-size: 20px;
-  font-weight: bold;
-  text-decoration: none;
-  border-radius: 12px;
-  margin-top: 30px;
-}
+    h1 {
+      font-size: 26px;
+      margin-bottom: 10px;
+    }
 
-/* Desktop polish */
-@media (min-width: 768px) {
-  body {
-    background-attachment: fixed;
-  }
-}
-</style>
+    .trust {
+      font-size: 15px;
+      color: #444;
+      margin-bottom: 28px;
+      line-height: 1.5;
+    }
 
-
-@keyframes pulse {
-  0% { box-shadow: 0 0 0 0 rgba(37,211,102,0.5); }
-  70% { box-shadow: 0 0 0 18px rgba(37,211,102,0); }
-  100% { box-shadow: 0 0 0 0 rgba(37,211,102,0); }
-}
+    .whatsapp-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      background: #25D366;
+      color: #fff;
+      padding: 18px;
+      font-size: 20px;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 14px;
+      margin-top: 20px;
+      animation: pulse 2s infinite;
+    }
 
     .subtext {
       margin-top: 12px;
       font-size: 14px;
       color: #555;
     }
+
+    @keyframes pulse {
+      0% { box-shadow: 0 0 0 0 rgba(37,211,102,0.5); }
+      70% { box-shadow: 0 0 0 18px rgba(37,211,102,0); }
+      100% { box-shadow: 0 0 0 0 rgba(37,211,102,0); }
+    }
+
+    @media (min-width: 768px) {
+      body {
+        background-attachment: fixed;
+      }
+    }
   </style>
 </head>
 
-body {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-  
+<body>
+
   <div class="container">
 
-    <!-- LOGO -->
     <div class="logo">
       <img src="brand-logo.png" alt="72 Hour Car Freshener">
     </div>
 
-    <!-- HEADLINE -->
     <h1>Most Selling Car Perfume</h1>
 
     <div class="trust">
@@ -96,14 +100,26 @@ body {
       Available in <b>India & UAE</b>
     </div>
 
-    <!-- WHATSAPP BUTTON -->
-   <a class="whatsapp-btn"
-   href="https://wa.me/919995947781?text=Hello!%20Can%20I%20get%20more%20info%20on%20this?"
-   target="_blank">
+    <a class="whatsapp-btn"
+       href="https://wa.me/919995947781?text=Hello!%20Can%20I%20get%20more%20info%20on%20this?"
+       target="_blank">
 
-  <!-- WhatsApp Icon -->
-  <svg xmlns="http://www.w3.org/2000/svg"
-       viewBox="0 0 24 24"
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+           width="22" height="22" fill="white">
+        <path d="M20.52 3.48A11.91 11.91 0 0012.01 0C5.38 0 .01 5.37.01 12c0 2.11.55 4.17 1.6 5.98L0 24l6.19-1.62A11.93 11.93 0 0012 24h.01c6.63 0 12-5.37 12-12 0-3.2-1.25-6.21-3.49-8.52z"/>
+      </svg>
+
+      WhatsApp Now
+    </a>
+
+    <div class="subtext">
+      Quick response • Direct support • No middlemen
+    </div>
+
+  </div>
+
+</body>
+</html>
        width="22"
        height="22"
        fill="white">
