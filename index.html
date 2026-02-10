@@ -5,51 +5,61 @@
   <title>72 Hour Car Perfume</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #f7f7f7;
-      color: #222;
-      text-align: center;
-    }
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: #222;
 
-    .container {
+  background:
+    linear-gradient(rgba(255,255,255,0.85), rgba(255,255,255,0.85)),
+    url('bg-poster.jpg');
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
   max-width: 420px;
   margin: 40px auto;
   padding: 30px 18px;
+  background: rgba(255,255,255,0.92);
+  border-radius: 18px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
 }
 
-   .logo img {
+.logo img {
   max-width: 180px;
   width: 100%;
   height: auto;
+  margin-bottom: 20px;
 }
-
-
-    h1 {
-      font-size: 26px;
-      margin-bottom: 8px;
-    }
-
-    .trust {
-      font-size: 15px;
-      color: #444;
-      margin-bottom: 28px;
-      line-height: 1.5;
-    }
-
-    .product img {
-      width: 100%;
-      max-width: 360px;
-      border-radius: 14px;
-      margin-bottom: 30px;
-    }
 
 .whatsapp-btn {
-  box-shadow: 0 0 0 rgba(37,211,102,0.7);
-  animation: pulse 2s infinite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  background: #25D366;
+  color: #fff;
+  padding: 18px;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 12px;
+  margin-top: 30px;
 }
+
+/* Desktop polish */
+@media (min-width: 768px) {
+  body {
+    background-attachment: fixed;
+  }
+}
+</style>
+
 
 @keyframes pulse {
   0% { box-shadow: 0 0 0 0 rgba(37,211,102,0.5); }
@@ -101,12 +111,6 @@ body {
   </svg>
 
   WhatsApp Now
-</a>
-@media (min-width: 768px) {
-  body {
-    background-attachment: fixed;
-  }
-}
     
 </body>
 </html>
